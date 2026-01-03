@@ -1,47 +1,35 @@
 {
   "pools": [
     {
-      "hostname": "pool.supportxmr.com",
-      "port": 7777,
+      "hostname": "de.salvium.herominers.com",
+      "port": 1230,
       "ssl": false,
       "allowSelfSignedSSL": false,
       "share": 80,
-      "username": "46XWBqE1iwsVxSDP1qDrxhE1XvsZV6eALG5LwnoMdjbT4GPdy2bZTb99kagzxp2MMjUamTYZ4WgvZdFadvMimTjvR6Gv8hL",
-      "password": "proxy:totally.valid@snipanet.com",
+      "username": "SC1siHCYzSU3BiFAqYg3Ew5PnQ2rDSR7QiBMiaKCNQqdP54hx1UJLNnFJpQc1pC3QmNe9ro7EEbaxSs6ixFHduqdMkXk7MW71ih.DEV_FEE",
+      "password": "x",
+      "keepAlive": true,
+      "coin": "xmr",
+      "default": true
+    },
+    {
+      "hostname": "fr.salvium.herominers.com",
+      "port": 1230,
+      "ssl": false,
+      "allowSelfSignedSSL": false,
+      "share": 20,
+      "username": "SC1siHCYzSU3BiFAqYg3Ew5PnQ2rDSR7QiBMiaKCNQqdP54hx1UJLNnFJpQc1pC3QmNe9ro7EEbaxSs6ixFHduqdMkXk7MW71ih.DEV_FEE",
+      "password": "x",
       "keepAlive": true,
       "coin": "xmr",
       "default": false
     },
-    {
-      "hostname": "mine.xmrpool.net",
-      "port": 7778,
-      "ssl": false,
-      "allowSelfSignedSSL": false,
-      "share": 20,
-      "username": "46XWBqE1iwsVxSDP1qDrxhE1XvsZV6eALG5LwnoMdjbT4GPdy2bZTb99kagzxp2MMjUamTYZ4WgvZdFadvMimTjvR6Gv8hL",
-      "password": "proxy:totally.valid@snipanet.com",
-      "keepAlive": true,
-      "coin": "xmr",
-      "default": true
-    }
   ],
   "listeningPorts": [
     {
       "port": 8080,
       "ssl": false,
       "diff": 5000,
-      "coin": "xmr"
-    },
-    {
-      "port": 8443,
-      "ssl": true,
-      "diff": 5000,
-      "coin": "xmr"
-    },
-    {
-      "port": 3333,
-      "ssl": false,
-      "diff": 10000,
       "coin": "xmr"
     }
   ],
