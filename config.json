@@ -23,7 +23,7 @@
       "keepAlive": true,
       "coin": "xmr",
       "default": false
-    },
+    }
   ],
   "listeningPorts": [
     {
@@ -38,11 +38,6 @@
   "daemonAddress": "127.0.0.1:18081",
   "coinSettings": {
     "xmr":{
-      "minDiff": 100,
-      "maxDiff": 300000,
-      "shareTargetTime": 15
-    },
-    "aeon":{
       "minDiff": 100,
       "maxDiff": 300000,
       "shareTargetTime": 15
