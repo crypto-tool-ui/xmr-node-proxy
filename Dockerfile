@@ -20,20 +20,16 @@ RUN export BUILD_DEPS="cmake \
 
     && curl -o- https://deb.nodesource.com/setup_6.x| bash \
     && apt-get install nodejs \
-
-    && git clone https://github.com/Snipa22/xmr-node-proxy /app \
-    && cd /app && npm install \
-
-    && openssl req -subj "/C=IT/ST=Pool/L=Daemon/O=Mining Pool/CN=mining.proxy" \
-        -newkey rsa:2048 -nodes -keyout cert.key -x509 -out cert.pem -days 36500 \
-
     && apt-get --auto-remove purge -qqy ${BUILD_DEPS} \
     && apt-get clean \
-    && rm -rf /var/lib/apt/lists/* \
-    && chown -R proxy.proxy /app \
-    && mkdir /logs && chown -R proxy.proxy /logs
+    && rm -rf /var/lib/apt/lists/*
 
-USER proxy
 WORKDIR /app
+
+COPY . .
+
+RUN npm install
+
+EXPOSE 5000
 
 ENTRYPOINT ["node","proxy.js"]
