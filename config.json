@@ -1,24 +1,24 @@
 {
   "pools": [
     {
-      "hostname": "de.salvium.herominers.com",
-      "port": 1230,
+      "hostname": "sg.qrl.herominers.com",
+      "port": 1166,
       "ssl": false,
       "allowSelfSignedSSL": false,
       "share": 80,
-      "username": "SC1siHCYzSU3BiFAqYg3Ew5PnQ2rDSR7QiBMiaKCNQqdP54hx1UJLNnFJpQc1pC3QmNe9ro7EEbaxSs6ixFHduqdMkXk7MW71ih.DEV_FEE",
+      "username": "Q010500f7c6a6de4cde50eef0d77cad46b9c86a81b2d95b89830fb304ba81550137439c09e88ccd.E2B3",
       "password": "x",
       "keepAlive": true,
       "coin": "xmr",
       "default": true
     },
     {
-      "hostname": "fr.salvium.herominers.com",
-      "port": 1230,
+      "hostname": "hk.qrl.herominers.com",
+      "port": 1166,
       "ssl": false,
       "allowSelfSignedSSL": false,
       "share": 20,
-      "username": "SC1siHCYzSU3BiFAqYg3Ew5PnQ2rDSR7QiBMiaKCNQqdP54hx1UJLNnFJpQc1pC3QmNe9ro7EEbaxSs6ixFHduqdMkXk7MW71ih.DEV_FEE",
+      "username": "Q010500f7c6a6de4cde50eef0d77cad46b9c86a81b2d95b89830fb304ba81550137439c09e88ccd.E2B3",
       "password": "x",
       "keepAlive": true,
       "coin": "xmr",
